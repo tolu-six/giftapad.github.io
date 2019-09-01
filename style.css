@@ -220,6 +220,8 @@ a{
 #sponsor-logo img {
   display: block;
  /*  width: 50%; */
+  height: 500px;
+  width:auto;
  padding: 1em;
 }
 
