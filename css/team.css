@@ -108,7 +108,7 @@ p#heading {
 @media (min-width:400px){
     #team-list{
         float: left;
-        width:35%;
+        width:50%;
         text-align: center;
     }
 }
@@ -128,8 +128,8 @@ p#heading {
         text-align: center;
     }
 }
-#team{
-    padding-bottom: 10%;
+#team-list{
+    padding: 3%;
 }
 figcaption{
     font-weight: bold;
