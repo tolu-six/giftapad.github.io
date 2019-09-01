@@ -100,7 +100,7 @@ p#heading {
 /*picture on mobile*/
 #team-list{
     float: left;
-    width:50%;
+    width:100%;
     text-align: center;
 }
 /* display for tablets*/
@@ -108,7 +108,7 @@ p#heading {
 @media (min-width:400px){
     #team-list{
         float: left;
-        width:25%;
+        width:35%;
         text-align: center;
     }
 }
@@ -116,7 +116,7 @@ p#heading {
 @media (min-width:720px){
     #team-list{
         float: left;
-        width:15%;
+        width:25%;
         text-align: center;
     }
 }
@@ -124,7 +124,7 @@ p#heading {
 @media (min-width:1000px){
     #team-list{
         float: left;
-        width:10%;
+        width:20%;
         text-align: center;
     }
 }
