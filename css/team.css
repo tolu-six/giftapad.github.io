@@ -37,7 +37,7 @@ ul{
 
 header{
     background:white;
-    margin-top:-30px;
+    margin-top:0;
     position:fixed;
     /*min-height: 30px;*/
    /* border-bottom:#e8491d 3px solid;*/
@@ -87,7 +87,11 @@ p#heading {
     font-size:20px;
     margin-top:100px;
 }
-
+main{
+    padding-bottom: 5%;
+    
+    min-height: 8000px;
+}
 
 /*Team image styling*/
 #team-list img{
@@ -111,6 +115,11 @@ p#heading {
         width:50%;
         text-align: center;
     }
+    main{
+    padding-bottom: 5%;
+    
+    min-height: 6000px;
+}
 }
 
 @media (min-width:720px){
@@ -119,6 +128,11 @@ p#heading {
         width:25%;
         text-align: center;
     }
+    main{
+    padding-bottom: 5%;
+    
+    min-height: 4000px;
+}
 }
 /*big screen display*/
 @media (min-width:1000px){
@@ -127,6 +141,11 @@ p#heading {
         width:20%;
         text-align: center;
     }
+    main{
+    padding-bottom: 5%;
+    
+    min-height: 3000px;
+}
 }
 figcaption{
     font-weight: bold;
@@ -141,11 +160,7 @@ h1{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-main{
-    padding-bottom: 5%;
-    
-    min-height: 3000px;
-}
+
 
 footer{
         margin-top: 6rem;
